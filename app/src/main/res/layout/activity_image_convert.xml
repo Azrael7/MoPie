@@ -13,6 +13,7 @@
 
     <Button
         android:id="@+id/button15"
+        style="@style/Widget.AppCompat.Button.Colored"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -30,4 +31,23 @@
         android:layout_alignParentTop="true"
         app:srcCompat="@android:drawable/dialog_holo_light_frame"
         android:layout_above="@+id/button15" />
+
+    <Button
+        android:id="@+id/button17"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView4"
+        android:layout_centerHorizontal="true"
+        android:text="Convert" />
+
+    <Button
+        android:id="@+id/button19"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView4"
+        android:text="Save" />
 </RelativeLayout>

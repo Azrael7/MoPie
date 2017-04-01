@@ -144,8 +144,6 @@ public class ReadyImageActivity extends AppCompatActivity {
         } catch (IOException ex) {
             Log.e("io", ex.getMessage());
         }
-
-        //String strFilePath = "C://FileIO//test";
         try {
             FileOutputStream fos = new FileOutputStream(f);
             fos.write(new_bytes);
